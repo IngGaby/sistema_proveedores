@@ -1,0 +1,33 @@
+body
+{
+	font-size: 16px;
+}
+header
+{	
+	background: url("../img/LogoAdministracion.png") no-repeat 95% center,
+				url("../img/LogoMunicipio.png") no-repeat 5% center;
+	background-size: 70px,70px;
+	height: 90px;
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+header h3
+{
+	color: #009500;
+	margin: 0;
+	text-shadow: rgba(0,0,0,0.5) 1px 2px 5px;
+}
+header h2
+{
+	color: #EC0000;
+	margin: 0;
+	text-shadow: rgba(0,0,0,0.5) 1px 2px 4px;
+}
+#linea
+{
+	background-color: #DF0000;
+	height: 3px;
+	width: 100%;
+}
+
