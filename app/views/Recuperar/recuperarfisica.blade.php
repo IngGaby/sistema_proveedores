@@ -29,7 +29,7 @@
 										<td>{{ $registro->a_materno}}</td>
 										<td>{{ $registro->rfc}}</td>
 										<td>{{ $registro->domicilio_rfc}}</td>
-										<td><input type="submit" class="btn btn-success" value="Recupeara" /></td>
+										<td><input type="submit" class="btn btn-success" value="Recuperar" /></td>
 									</tr>
 								@endforeach
 							</table>
