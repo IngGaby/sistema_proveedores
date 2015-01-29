@@ -3,6 +3,9 @@
 @section('contenido')
 	
 	@include('templates/menu')
+	@include('templates/correcto')
+	@include('templates/error')
+	@include('templates/errores')
 
 	<div  class="row bajar-60">
 		<div class="col-md-1">{{-- columna1 --}}</div>
