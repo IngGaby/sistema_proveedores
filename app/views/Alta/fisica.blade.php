@@ -55,7 +55,6 @@
 							<div class="form-group"><br>
 								<input type="submit" class="btn btn-success" value="Guardar" />
 							</div>
-								
 							
 					</form>
 				</div>
