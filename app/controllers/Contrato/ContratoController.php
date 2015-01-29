@@ -15,7 +15,7 @@ class Contrato_ContratoController extends BaseController{
 		$tipo_contrato = Input::get('tipo_contrato');
 		$producto_servicio = Input::get('producto_servicio');
 		$cantidad = Input::get('cantidad');
-
+		
 
 		$contratos = new Contratos;
 		$contratos->no_contrato = $no_contrato;

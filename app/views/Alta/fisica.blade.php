@@ -55,7 +55,7 @@
 							<div class="form-group"><br>
 								<input type="submit" class="btn btn-success" value="Guardar" />
 							</div>
-								<div class="alert alert-danger"> *Todos los campos son obligatorios</div>
+								
 							
 					</form>
 				</div>
