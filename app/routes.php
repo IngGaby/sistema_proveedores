@@ -31,6 +31,7 @@ Route::get('/baja',array('before'=>'sesion','uses'=>'Bajaproveedores_BajaControl
 Route::get('/bajafisica',array('before'=>'sesion','uses'=>'Bajaproveedores_BajafisicaController@bajafisica'));
 
 Route::get('/recuperarfisica',array('before'=>'sesion','uses'=>'Recuperar_RecuperarfisicaController@recuperarFisica'));
+Route::get('/recuperarmoral',array('before'=>'sesion','uses'=>'Recuperar_RecuperarmoralController@recuperarMoral'));
 
 
 
