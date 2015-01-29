@@ -8,14 +8,6 @@ class Alta_AltaController extends BaseController{
 
 	public function guardarFisica()
 	{
-		// $nombre = Input::get('nombre');
-		// $a_paterno = Input::get('a_paterno');
-		// $a_materno = Input::get('a_materno');
-		// $rfc = Input::get('rfc');
-		// $domiciliorfc = Input::get('domiciliorfc');
-		// $folioife = Input::get('folioife');
-		// $domicilioife = Input::get('domicilioife');
-		// $claveife = Input::get('claveife');
 
 		$data = Input::all();
 
@@ -47,22 +39,25 @@ class Alta_AltaController extends BaseController{
 		$validator = Validator::make($data, $reglas, $messages);
 
 		if($validator->passes()){
-			return 'Datos guardados';
+
+			$fisicas = new Fisicas;
+			$fisicas->nombre = Input::get('nombre');
+			$fisicas->a_paterno = Input::get('a_paterno');
+			$fisicas->a_materno = Input::get('a_materno');
+			$fisicas->rfc = Input::get('rfc');
+			$fisicas->domicilio_rfc = Input::get('domiciliorfc');
+			$fisicas->no_folio_ife = Input::get('folioife');
+			$fisicas->domicilio_ife = Input::get('domicilioife');
+			$fisicas->clave_ife = Input::get('claveife');
+			$fisicas -> save();
+
+
+			return Redirect::to('fisica')->with('correcto', 'Datos Guardados Correctamente');
 		}
 
+		$this->errors = $validator->errors();
 
-		// $fisicas = new Fisicas;
-		// $fisicas->nombre = $nombre;
-		// $fisicas->a_paterno = $a_paterno;
-		// $fisicas->a_materno = $a_materno;
-		// $fisicas->rfc = $rfc;
-		// $fisicas->domicilio_rfc = $domiciliorfc;
-		// $fisicas->no_folio_ife = $folioife;
-		// $fisicas->domicilio_ife = $domicilioife;
-		// $fisicas->clave_ife = $claveife;
-		// $fisicas -> save();
-
-		return Redirect::to('/fisica');
+		return Redirect::to('fisica')->withErrors($this->errors)->withInput();
 	}
 	
 }
