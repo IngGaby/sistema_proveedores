@@ -9,25 +9,48 @@ class Contrato_ContratoController extends BaseController{
 	public function guardarContrato()
 	{
 		
-		$no_contrato = Input::get('no_contrato');
-		$fecha_contrato = Input::get('fecha_contrato');
-		$vigencia_contrato = Input::get('vigencia_contrato');
-		$tipo_contrato = Input::get('tipo_contrato');
-		$producto_servicio = Input::get('producto_servicio');
-		$cantidad = Input::get('cantidad');
+		$data = Input::all();
+
+		$reglas =  [
+			'no_contrato'		=> 'required|numeric',
+			'fecha_contrato'	=> 'required',
+			'vigencia_contrato'	=> 'required',
+			'tipo_contrato'		=> 'required',
+			'producto_servicio'	=> 'required|alpha_num',
+			'cantidad'			=> 'required|numeric'
+		];
+
+		$messages = [
+			'no_contrato.required'	  	  => 'El No de contrato es un campo requerido',
+			'no_contrato.numeric'	  	  => 'El No de contrato debe ser númerico',
+			'fecha_contrato.required' 	  => 'La fecha de contrato es un campo requerido',
+			'vigencia_contrato.required'  => 'La vigencia del contrato es un campo requerido',
+			'tipo_contrato.required'	  => 'El tipo de contrato  es un campo requerido',
+			'producto_servicio.required'  => 'El producto o servicio es un campo obligatorio',
+			'producto_servicio.alpha_num' => 'El productoa servicio debe ser Alphanúmerico',
+			'cantidad.required'			  => 'La cantidad es un campo requerido',
+			'cantidad.numeric'			  => 'La cantidad es un campo numerico'
+		];
 		
+		$validator = Validator::make($data, $reglas, $messages);
 
-		$contratos = new Contratos;
-		$contratos->no_contrato = $no_contrato;
-		$contratos->fecha_contrato = $fecha_contrato;
-		$contratos->vigencia_contrato= $vigencia_contrato;
-		$contratos->vigencia_contrato= $vigencia_contrato;
-		$contratos->tipo_contrato = $tipo_contrato;
-		$contratos->producto_servicio = $producto_servicio;
-		$contratos->cantidad= $cantidad;
-		$contratos -> save();
+		if ($validator ->passes()){
 
-		return Redirect::to('/contrato');
+			$contratos = new Contratos;
+			$contratos->no_contrato = Input::get('no_contrato'); 
+			$contratos->fecha_contrato =  Input::get('fecha_contrato');
+			$contratos->vigencia_contrato= Input::get('vigencia_contrato');
+			$contratos->tipo_contrato = Input::get('tipo_contrato');
+			$contratos->producto_servicio = Input::get('producto_servicio');
+			$contratos->cantidad= Input::get('cantidad');
+			$contratos -> save();
+		
+			return Redirect::to('contrato')->with('correcto', 'Datos Guardados Correctamente');	
+		}
+
+		$this->errors = $validator->errors();
+
+		return Redirect::to('contrato')->withErrors($this->errors)->withInput();
 	}
 		
 

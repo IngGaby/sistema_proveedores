@@ -3,6 +3,9 @@
 @section('contenido')
 	
 	@include('templates/menu')
+	@include('templates/correcto')
+	@include('templates/error')
+	@include('templates/errores')
 
 	<div  class="row bajar-60">
 		<div class="col-md-1">{{-- columna1 --}}</div>
@@ -23,13 +26,13 @@
 								<input type="text" class="form-control" placeholder="Ingresa el domicilio de la empres" name="domicilioempresa" />
 							</div>
 								<div class="col-md-4">
-									<label for="numeroacta">*Número de acta contitutiva:</label>
+									<label for="numeroacta">*Número de acta constitutiva:</label>
 									<input type="text" class="form-control" placeholder="Ingresa  número de acta constitutiva" name="numeroacta" />
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-4">
-									<label for="numeronotario">*Numero de notario:</label>
+									<label for="numeronotario">*Número de notario:</label>
 									<input type="text" class="form-control" placeholder="Ingresa número de notario" name="numeronotario" />
 								</div>
 								<div class="col-md-4">
@@ -69,7 +72,6 @@
 							<div class="form-group"><br>
 								<input type="submit" class="btn btn-success" value="Guardar" />
 							</div>
-							<div class="alert alert-danger"> *Todos los campos son obligatorios</div>
 					</form>
 				</div>
 			</div>
