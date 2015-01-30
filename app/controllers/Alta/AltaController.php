@@ -17,7 +17,7 @@ class Alta_AltaController extends BaseController{
 			'a_materno'    => 'required',
 			'rfc'          => 'required|alpha_num',
 			'domiciliorfc' => 'required',
-			'folioife'	   => 'required|integer',
+			'folioife'	   => 'required|numeric',
 			'domicilioife' => 'required',
 			'claveife'	   => 'required|alpha_num'
 		];
@@ -30,7 +30,7 @@ class Alta_AltaController extends BaseController{
 			'rfc.alpha_num'		     => 'El RFC debe ser Alfanúmerico',
 			'domiciliorfc.required'  => 'El domicilio del RFC es un campo requerido',
 			'folioife.required'		 => 'El folio del IFE es un campo requerido',
-			'folioife.integer'		 => 'El folio del IFE debe ser númerico',
+			'folioife.numeric'		 => 'El folio del IFE debe ser númerico',
 			'domicilioife.required'  => 'El domicilio del ife es un campo requerido',
 			'claveife.required'		 => 'La clave del IFE es un campo requerido',
 			'claveife.alpha_num'	 => 'La clave del IFE debe ser Alphanúmerico'
