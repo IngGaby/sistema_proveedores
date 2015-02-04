@@ -11,17 +11,17 @@ class Alta_MoralController extends BaseController{
 		$data  =  Input::all();
 
 		$reglas = [
-			'nombreempresa'		  =>'required',
-			'domicilioempresa'		  =>'required|alpha_num',
-			'numeroacta'			  =>'required|numeric',
-			'numeronotario'		  =>'required|numeric',
-			'localidadnotario'		  =>'required|alpha_num',
-			'nombrenotario'		  =>'required',
-			'a_paternonotario'		  =>'required',
-			'a_maternonotario'		  =>'required',
-			'nombrerepresentante'	  =>'required',
-			'a_paternorepresentante' =>'required',
-			'a_maternorepresentante' =>'required'
+			'nombreempresa'		    =>'required',
+			'domicilioempresa'		=>'required|alpha_num',
+			'numeroacta'			=>'required|numeric',
+			'numeronotario'		  	=>'required|numeric',
+			'localidadnotario'		=>'required|alpha_num',
+			'nombrenotario'		  	=>'required',
+			'a_paternonotario'		=>'required',
+			'a_maternonotario'		=>'required',
+			'nombrerepresentante'	=>'required',
+			'a_paternorepresentante'=>'required',
+			'a_maternorepresentante'=>'required'
 		];
 
 		$messages = [

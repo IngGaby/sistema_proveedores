@@ -12,9 +12,9 @@ class Alta_AltaController extends BaseController{
 		$data = Input::all();
 
 		$reglas = [
-			'nombre'       => 'required',
-			'a_paterno'    => 'required',
-			'a_materno'    => 'required',
+			'nombre'       => 'required|regex:[a-z]',
+			'a_paterno'    => 'required|regex:[a-z]',
+			'a_materno'    => 'required|regex:[a-z]',
 			'rfc'          => 'required|alpha_num',
 			'domiciliorfc' => 'required',
 			'folioife'	   => 'required|numeric',
@@ -24,8 +24,11 @@ class Alta_AltaController extends BaseController{
 
 		$messages = [
 			'nombre.required'        => 'El nombre es un campo requerido',
+			'nombre.regex:[a-z]'     => 'El nombre debe ser alfa',
 			'a_paterno.required'     => 'El apellido paterno es un campo requerido',
+			'a_paterno.regex:[a-z]'     => 'El nombre debe ser alfa',
 			'a_materno.required'     => 'El apellido materno es un campo requerido',
+			'a_materno.regex:[a-z]'     => 'El nombre debe ser alfa',
 			'rfc.required'		     => 'El RFC es un campo requerido',
 			'rfc.alpha_num'		     => 'El RFC debe ser Alfanúmerico',
 			'domiciliorfc.required'  => 'El domicilio del RFC es un campo requerido',
