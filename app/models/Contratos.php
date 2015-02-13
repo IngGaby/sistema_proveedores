@@ -3,7 +3,7 @@
 
 	class Contratos extends Eloquent
 	{
-		
+			
 		
 	}
 	

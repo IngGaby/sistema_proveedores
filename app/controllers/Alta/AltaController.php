@@ -12,9 +12,9 @@ class Alta_AltaController extends BaseController{
 		$data = Input::all();
 
 		$reglas = [
-			'nombre'       => 'required|regex:[a-z]',
-			'a_paterno'    => 'required|regex:[a-z]',
-			'a_materno'    => 'required|regex:[a-z]',
+			'nombre'       => 'required|alpha',
+			'a_paterno'    => 'required|alpha',
+			'a_materno'    => 'required|alpha',
 			'rfc'          => 'required|alpha_num',
 			'domiciliorfc' => 'required',
 			'folioife'	   => 'required|numeric',
@@ -52,6 +52,7 @@ class Alta_AltaController extends BaseController{
 			$fisicas->no_folio_ife = Input::get('folioife');
 			$fisicas->domicilio_ife = Input::get('domicilioife');
 			$fisicas->clave_ife = Input::get('claveife');
+			$fisicas->estado = '1';
 			$fisicas -> save();
 
 

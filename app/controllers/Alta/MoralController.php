@@ -58,6 +58,7 @@ class Alta_MoralController extends BaseController{
 			$morales->nombre_representante = Input::get('nombrerepresentante');
 			$morales->a_paterno_representante = Input::get('a_paternorepresentante');
 			$morales->a_materno_representante = Input::get('a_maternorepresentante');
+			$morales->estado = '1';
 			$morales -> save();
 
 			return Redirect::to('moral')->with('correcto', 'Datos Guardados Correctamente');

@@ -26,6 +26,7 @@ class TablaMoral extends Migration {
 			$table->string('nombre_representante',20);
 			$table->string('a_paterno_representante',20);
 			$table->string('a_materno_representante',20);
+			$table->string('estado',1);
 			$table->timestamps();
 		});
 	}

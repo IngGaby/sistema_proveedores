@@ -23,6 +23,7 @@ class TablaFisicas extends Migration {
 			$table->string('no_folio_ife',20);
 			$table->string('domicilio_ife',50);
 			$table->string('clave_ife',25);
+			$table->string('estado',1);
 			$table->timestamps();
 		});
 	}
