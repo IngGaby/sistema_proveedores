@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Contrato personas fisicas</title>
+		<title>Contrato personas fisicas de servicio</title>
 	</head>
 	<body>
 			<center><p><font color="red">CONTRATO  DE SERVICIOS<br>

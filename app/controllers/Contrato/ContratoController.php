@@ -12,7 +12,7 @@ class Contrato_ContratoController extends BaseController{
 		$data = Input::all();
 
 		$reglas =  [
-			'no_contrato'		=> 'required|numeric',
+			'no_contrato'		=> 'required|alpha_num',
 			'fecha_contrato'	=> 'required',
 			'vigencia_contrato'	=> 'required',
 			'tipo_contrato'		=> 'required',
@@ -22,6 +22,7 @@ class Contrato_ContratoController extends BaseController{
 
 		$messages = [
 			'no_contrato.required'	  	  => 'El No de contrato es un campo requerido',
+			'no_contrato.alpha_num'	  	  => 'El No de contrato debe ser alpha_num',
 			'no_contrato.numeric'	  	  => 'El No de contrato debe ser númerico',
 			'fecha_contrato.required' 	  => 'La fecha de contrato es un campo requerido',
 			'vigencia_contrato.required'  => 'La vigencia del contrato es un campo requerido',
