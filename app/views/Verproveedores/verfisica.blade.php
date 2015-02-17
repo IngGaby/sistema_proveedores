@@ -11,15 +11,14 @@
 							<div class="panel-heading">
 								<h3 class="panel-title">Persona Fisica</h3>	
 							</div>
-
-				
 							<table class="table">
 								<tr>
 									<th>Nombre</th>
 									<th>Apellido paterno</th>
 									<th>Apellido materno</th>
 									<th>RFC</th>
-									
+									<th>Eliminar</th>
+
 								</tr>
 								@foreach ($registros as $registro)
 									<tr>
@@ -27,6 +26,7 @@
 										<td>{{ $registro->a_paterno}}</td>
 										<td>{{ $registro->a_materno}}</td>
 										<td>{{ $registro->rfc}}</td>
+										<td><a href="/eliminar-fisica/{{ $registro->id }}" class="btn btn-success">Eliminar</a></td>
 									</tr>
 								@endforeach
 							</table>

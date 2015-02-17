@@ -20,7 +20,8 @@
 									<th>Apellido materno</th>
 									<th>RFC</th>
 									<th>Direccion de RFC</th>
-									
+									<th>Recuperar</th>
+
 								</tr>
 								@foreach ($registros as $registro)
 									<tr>
@@ -29,7 +30,7 @@
 										<td>{{ $registro->a_materno}}</td>
 										<td>{{ $registro->rfc}}</td>
 										<td>{{ $registro->domicilio_rfc}}</td>
-										<td><input type="submit" class="btn btn-success" value="Recuperar" /></td>
+										<td><a href="recuperar-fisica/{{ $registro->id }}" class="btn btn-success">Recuperar</a></td>
 									</tr>
 								@endforeach
 							</table>

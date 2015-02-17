@@ -20,11 +20,11 @@
           <li><a href="{{url('/recuperarmoral')}}">Persona moral</a></li>
         </ul>
 
-        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Baja Proveedores <b class="caret"></b></a>
+        {{--<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Baja Proveedores <b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="{{url('/bajafisica')}}">Persona fisica</a></li>
           <li><a href="{{url('/baja')}}">Persona moral</a></li>
-        </ul>
+        </ul>--}}
 
         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
         <ul class="dropdown-menu">

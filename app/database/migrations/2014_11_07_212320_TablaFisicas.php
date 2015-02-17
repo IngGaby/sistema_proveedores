@@ -14,7 +14,7 @@ class TablaFisicas extends Migration {
 	{
 		Schema::create('fisicas', function(Blueprint $table)
 		{
-			$table->increments('id_fisica');
+			$table->increments('id');
 			$table->string('nombre',20);
 			$table->string('a_paterno',20);
 			$table->string('a_materno',20);

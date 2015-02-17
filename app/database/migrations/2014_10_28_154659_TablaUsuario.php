@@ -32,7 +32,7 @@ class TablaUsuario extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('usriario');
+		Schema::drop('usuarios');
 	}
 
 }
