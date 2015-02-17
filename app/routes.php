@@ -39,6 +39,12 @@ Route::get('/contratofisicacompra','Contratos_PdffisicacompraController@pdfFisic
 Route::get('/contratomoralcompra','Contratos_PdfmoralcompraController@pdfMoralc');
 Route::get('/contratomoralservicio','Contratos_PdfmoralservicioController@pdfMorals');
 
+Route::get('/eliminar-fisica/{no_fisica}', 'Eliminar_ProveedoresController@fisica');
+Route::get('/recuperar-fisica/{no_fisica}', 'Recupera_ProveedoresController@fisica');
+
+Route::get('/eliminar-moral/{no_moral}','Eliminar_ProveedoresController@moral');
+Route::get('/recuperar-moral/{no_moral}','Recupera_ProveedoresController@moral');
+
 Route::get('/salir', function()
 {
 	Session::flush();

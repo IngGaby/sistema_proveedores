@@ -1,6 +1,7 @@
 <?php 	
 
-	class Morales extends Eloquent{
+	class Morales extends Eloquent
+	{
 		
 	}
  ?>
