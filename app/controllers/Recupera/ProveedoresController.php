@@ -20,7 +20,7 @@ class Recupera_ProveedoresController extends Controller {
 
     public function moral($id_recuperar)
     {
-    	$recuperar = Moral::find($id_recuperar);
+    	$recuperar = Morales::find($id_recuperar);
 
     	$recuperar->estado = 1;
     	$recuperar->save();
