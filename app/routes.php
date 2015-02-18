@@ -45,6 +45,8 @@ Route::get('/recuperar-fisica/{no_fisica}', 'Recupera_ProveedoresController@fisi
 Route::get('/eliminar-moral/{no_moral}','Eliminar_ProveedoresController@moral');
 Route::get('/recuperar-moral/{no_moral}','Recupera_ProveedoresController@moral');
 
+
+
 Route::get('/salir', function()
 {
 	Session::flush();
