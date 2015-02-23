@@ -30,8 +30,7 @@
 										<td>{{ $registro->a_materno}}</td>
 										<td>{{ $registro->rfc}}</td>
 										<td>{{ $registro->domicilio_rfc}}</td>
-										<td><a href="recuperar-fisica/{{ $registro->id }}" class="btn btn-success">Recuperar</a></td>
-									</tr>
+
 								@endforeach
 							</table>
 						</div>

@@ -26,7 +26,7 @@
           <li><a href="{{url('/baja')}}">Persona moral</a></li>
         </ul>--}}
 
-        <li><a href="{{url('/ver')}}">Generar contratos</a></li>
+        <li><a href="{{url('/ver')}}">Ver contratos</a></li>
 
         <!-- <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
         <ul class="dropdown-menu">

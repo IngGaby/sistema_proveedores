@@ -23,7 +23,7 @@
 							</div>
 							<div class="col-md-4">
 								<label for="domicilioempresa">*Domicilio de la empresa:</label>
-								<input type="text" class="form-control" placeholder="Ingresa el domicilio de la empres" name="domicilioempresa" />
+								<input type="text" class="form-control" placeholder="Ingresa el domicilio de la empresa" name="domicilioempresa" />
 							</div>
 								<div class="col-md-4">
 									<label for="numeroacta">*Número de acta constitutiva:</label>

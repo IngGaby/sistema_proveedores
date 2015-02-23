@@ -33,7 +33,7 @@ Route::get('/bajafisica',array('before'=>'sesion','uses'=>'Bajaproveedores_Bajaf
 Route::get('/recuperarfisica',array('before'=>'sesion','uses'=>'Recuperar_RecuperarfisicaController@recuperarFisica'));
 Route::get('/recuperarmoral',array('before'=>'sesion','uses'=>'Recuperar_RecuperarmoralController@recuperarMoral'));
 
-Route::get('/contratofisicaservicio','Contratos_PdffisicaController@pdfFisicas');
+Route::get('/contratofisicaservicio/{no_contrato}','Contratos_PdffisicaController@pdfFisicas');
 Route::get('/contratofisicacompra','Contratos_PdffisicacompraController@pdfFisicac');
 
 Route::get('/contratomoralcompra','Contratos_PdfmoralcompraController@pdfMoralc');
@@ -45,7 +45,7 @@ Route::get('/recuperar-fisica/{no_fisica}', 'Recupera_ProveedoresController@fisi
 Route::get('/eliminar-moral/{no_moral}','Eliminar_ProveedoresController@moral');
 Route::get('/recuperar-moral/{no_moral}','Recupera_ProveedoresController@moral');
 
-Route::get('/ver-contrato/{pdffisica}','Contrato_ContratosController@contratoServicio');
+Route::get('/ver','Contrato_ContratosController@contratoServicio');
 
 
 Route::get('/salir', function()
