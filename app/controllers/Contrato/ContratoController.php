@@ -16,7 +16,7 @@ class Contrato_ContratoController extends BaseController{
 			'fecha_contrato'	=> 'required',
 			'vigencia_contrato'	=> 'required',
 			'tipo_contrato'		=> 'required',
-			'producto_servicio'	=> 'required|alpha_num',
+			'producto_servicio'	=> 'required',
 			'cantidad'			=> 'required|numeric',
 			'monto_total'		=>'required'
 		];
@@ -29,7 +29,6 @@ class Contrato_ContratoController extends BaseController{
 			'vigencia_contrato.required'  => 'La vigencia del contrato es un campo requerido',
 			'tipo_contrato.required'	  => 'El tipo de contrato  es un campo requerido',
 			'producto_servicio.required'  => 'El producto o servicio es un campo obligatorio',
-			'producto_servicio.alpha_num' => 'El productoa servicio debe ser Alphanúmerico',
 			'cantidad.required'			  => 'La cantidad es un campo requerido',
 			'cantidad.numeric'			  => 'La cantidad es un campo numerico',
 			'monto_total'				  => 'El monto total es requerido'
