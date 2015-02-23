@@ -28,7 +28,7 @@
 										<td>{{ $registro->nombre}}</td> 
 										<td>{{ $registro->a_paterno}}</td>
 										<td>{{ $registro->a_materno}}</td>
-										<td><a href="recuperar-fisica/{{ $registro->id }}" class="btn btn-success">Contrato</a></td>
+										<td><a href="ver-contrato/{{Contratos/pdffisica}}" class="btn btn-success">Contrato</a></td>
 									</tr>
 								@endforeach
 							</table>

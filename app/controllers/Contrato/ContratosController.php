@@ -1,18 +1,17 @@
 <?php
 
-class Contrato_ContratosController extends BaseControlle{
+class Contrato_ContratosController extends BaseController{
 
 
 	public function contratoServicio()
     {
 
-
-        return View::make();
+        $datos['registros'] = Fisicas::whereEstado('1')->get();
+        return View::make('Contratos/ver', $datos);
     }
 
-    public function contratoCompra()
-    {
-    	return View::make();
-    }
+
+
+
 
 }
