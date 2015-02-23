@@ -14,7 +14,7 @@ class TablaMoral extends Migration {
 	{
 		Schema::create('morales', function(Blueprint $table)
 		{
-			$table->increments('id_moral');
+			$table->increments('id');
 			$table->string('nombre_empresa',50);
 			$table->string('domicilio_empresa',50);
 			$table->string('numero_acta',20);

@@ -9,23 +9,26 @@
 					<div class="col-md-10">
 						<div class="panel panel-success">
 							<div class="panel-heading">
-								<h3 class="panel-title">Persona Moral </h3>	
+								<h3 class="panel-title">Contrato persona fisica servicio</h3>	
 							</div>
+
+				
 							<table class="table">
 								<tr>
-									<th>Nombre Empresa</th>
-									<th>Domicilio de la empresa</th>
-									<th>Número de acta</th>
-									<th>Nombre Representante</th>
-									<th>Eliminar</th>
+									<th>No.De Contrato</th>
+									<th>Nombre</th>
+									<th>Apellido paterno</th>
+									<th>Apellido materno</th>
+									<th>Contrato</th>
+
 								</tr>
 								@foreach ($registros as $registro)
 									<tr>
-										<td>{{ $registro->nombre_empresa}}</td>
-										<td>{{ $registro->domicilio_empresa}}</td>
-										<td>{{ $registro->numero_acta}}</td>
-										<td>{{ $registro->nombre_representante}}</td>
-										<td><a href="/eliminar-moral/{{ $registro->id }}" class="btn btn-success">Eliminar</a></td>
+										<td>{{ $registro->no_contrato}}</td> 
+										<td>{{ $registro->nombre}}</td> 
+										<td>{{ $registro->a_paterno}}</td>
+										<td>{{ $registro->a_materno}}</td>
+										<td><a href="ver-contrato/{{Contratos/pdffisica}}" class="btn btn-success">Contrato</a></td>
 									</tr>
 								@endforeach
 							</table>
@@ -34,4 +37,6 @@
 				</div>
 				<div class="col-md-1">{{--columna3--}}</div>
 			</div>
-@stop
+@stop	
+</body>
+</html>

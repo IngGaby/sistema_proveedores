@@ -50,7 +50,10 @@
 							
 						</div>								
 						<div class="row">
-							<div class="col-md-4"></div>
+							<div class="col-md-4">
+								<label for="cantidad">Monto Total:</label>
+								<input type="text" class="form-control" placeholder="Ingresa Monto Total" name="monto_total" />
+							</div>
 							<div class="col-md-4"></div>
 							<div class="col-md-4"></div>
 						</div>

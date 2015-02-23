@@ -21,6 +21,7 @@ class TablaContrato extends Migration {
 			$table->string('tipo_contrato',10);
 			$table->string('producto_servicio',50);
 			$table->string('cantidad',20);
+			$table->string('monto_total',150);
 			$table->timestamps();
 		});
 	}

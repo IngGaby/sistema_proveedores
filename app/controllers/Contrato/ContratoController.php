@@ -12,16 +12,18 @@ class Contrato_ContratoController extends BaseController{
 		$data = Input::all();
 
 		$reglas =  [
-			'no_contrato'		=> 'required|numeric',
+			'no_contrato'		=> 'required|alpha_num',
 			'fecha_contrato'	=> 'required',
 			'vigencia_contrato'	=> 'required',
 			'tipo_contrato'		=> 'required',
 			'producto_servicio'	=> 'required|alpha_num',
-			'cantidad'			=> 'required|numeric'
+			'cantidad'			=> 'required|numeric',
+			'monto_total'		=>'required'
 		];
 
 		$messages = [
 			'no_contrato.required'	  	  => 'El No de contrato es un campo requerido',
+			'no_contrato.alpha_num'	  	  => 'El No de contrato debe ser alpha_num',
 			'no_contrato.numeric'	  	  => 'El No de contrato debe ser númerico',
 			'fecha_contrato.required' 	  => 'La fecha de contrato es un campo requerido',
 			'vigencia_contrato.required'  => 'La vigencia del contrato es un campo requerido',
@@ -29,7 +31,8 @@ class Contrato_ContratoController extends BaseController{
 			'producto_servicio.required'  => 'El producto o servicio es un campo obligatorio',
 			'producto_servicio.alpha_num' => 'El productoa servicio debe ser Alphanúmerico',
 			'cantidad.required'			  => 'La cantidad es un campo requerido',
-			'cantidad.numeric'			  => 'La cantidad es un campo numerico'
+			'cantidad.numeric'			  => 'La cantidad es un campo numerico',
+			'monto_total'				  => 'El monto total es requerido'
 		];
 		
 		$validator = Validator::make($data, $reglas, $messages);
@@ -43,6 +46,7 @@ class Contrato_ContratoController extends BaseController{
 			$contratos->tipo_contrato = Input::get('tipo_contrato');
 			$contratos->producto_servicio = Input::get('producto_servicio');
 			$contratos->cantidad= Input::get('cantidad');
+			$contratos->monto_total = Input::get('monto_total');
 			$contratos -> save();
 		
 			return Redirect::to('contrato')->with('correcto', 'Datos Guardados Correctamente');	

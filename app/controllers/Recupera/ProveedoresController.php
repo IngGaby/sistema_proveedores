@@ -17,4 +17,14 @@ class Recupera_ProveedoresController extends Controller {
 
         return Redirect::to('/recuperarfisica');
     }
+
+    public function moral($id_recuperar)
+    {
+    	$recuperar = Morales::find($id_recuperar);
+
+    	$recuperar->estado = 1;
+    	$recuperar->save();
+
+    	return Redirect::to('/recuperarmoral');
+    }
 }

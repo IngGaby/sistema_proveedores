@@ -12,4 +12,15 @@ class Eliminar_ProveedoresController extends Controller {
         return Redirect::to('/verfisica');
 
     }
+
+    public function moral($no_moral)
+
+    {
+    	$proveedor = Morales::find($no_moral);
+
+    	$proveedor->estado = '0';
+    	$proveedor->save();
+
+    	return Redirect::to('/vermoral');
+    }
 }

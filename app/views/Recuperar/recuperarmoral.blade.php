@@ -29,7 +29,7 @@
 										<td>{{ $registro->domicilio_empresa}}</td>
 										<td>{{ $registro->numero_acta}}</td>
 										<td>{{ $registro->nombre_representante}}</td>
-										<td><input type="submit" class="btn btn-success" value="Recuperar" /></td> 
+										<td><a href="recuperar-moral/{{ $registro->id }}" class="btn btn-success">Recuperar</a></td>
 									</tr>
 								@endforeach
 							</table>
