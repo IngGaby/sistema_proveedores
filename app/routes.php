@@ -45,7 +45,7 @@ Route::get('/recuperar-fisica/{no_fisica}', 'Recupera_ProveedoresController@fisi
 Route::get('/eliminar-moral/{no_moral}','Eliminar_ProveedoresController@moral');
 Route::get('/recuperar-moral/{no_moral}','Recupera_ProveedoresController@moral');
 
-Route::get('/ver-contrato/{pdffisica}','Contrato_ContratosController@contratoServicio');
+Route::get('/ver','Contrato_ContratosController@contratoServicio');
 
 
 Route::get('/salir', function()

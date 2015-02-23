@@ -16,19 +16,19 @@
 							<table class="table">
 								<tr>
 									<th>No.De Contrato</th>
-									<th>Nombre</th>
-									<th>Apellido paterno</th>
-									<th>Apellido materno</th>
+									<th>Fecha de contrato</th>
+									<th>Vigencia de contrato</th>
+									<th>Tipo de contrato</th>
 									<th>Contrato</th>
 
 								</tr>
 								@foreach ($registros as $registro)
 									<tr>
 										<td>{{ $registro->no_contrato}}</td> 
-										<td>{{ $registro->nombre}}</td> 
-										<td>{{ $registro->a_paterno}}</td>
-										<td>{{ $registro->a_materno}}</td>
-										<td><a href="ver-contrato/{{Contratos/pdffisica}}" class="btn btn-success">Contrato</a></td>
+										<td>{{ $registro->fecha_contrato}}</td>
+										<td>{{ $registro->vigencia_contrato}}</td>
+										<td>{{ $registro->tipo_contrato}}</td>
+                                        <td></td>
 									</tr>
 								@endforeach
 							</table>
