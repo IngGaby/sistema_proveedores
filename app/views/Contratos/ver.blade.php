@@ -28,7 +28,7 @@
 										<td>{{ $registro->fecha_contrato}}</td>
 										<td>{{ $registro->vigencia_contrato}}</td>
 										<td>{{ $registro->tipo_contrato}}</td>
-                                        <td></td>
+                                        <td><a href="{{ url('/contratofisicaservicio/'.$registro->no_contrato) }}" class="btn btn-success">Ver Contrato</a></td>
 									</tr>
 								@endforeach
 							</table>

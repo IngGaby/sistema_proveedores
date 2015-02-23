@@ -33,7 +33,7 @@ Route::get('/bajafisica',array('before'=>'sesion','uses'=>'Bajaproveedores_Bajaf
 Route::get('/recuperarfisica',array('before'=>'sesion','uses'=>'Recuperar_RecuperarfisicaController@recuperarFisica'));
 Route::get('/recuperarmoral',array('before'=>'sesion','uses'=>'Recuperar_RecuperarmoralController@recuperarMoral'));
 
-Route::get('/contratofisicaservicio','Contratos_PdffisicaController@pdfFisicas');
+Route::get('/contratofisicaservicio/{no_contrato}','Contratos_PdffisicaController@pdfFisicas');
 Route::get('/contratofisicacompra','Contratos_PdffisicacompraController@pdfFisicac');
 
 Route::get('/contratomoralcompra','Contratos_PdfmoralcompraController@pdfMoralc');

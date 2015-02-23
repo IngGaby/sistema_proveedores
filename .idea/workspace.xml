@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20a25417-d189-4600-ba06-cf97d6604b24" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Contrato/ContratoController.php" afterPath="$PROJECT_DIR$/app/controllers/Contrato/ContratoController.php" />
+=======
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Contrato/ContratosController.php" afterPath="$PROJECT_DIR$/app/controllers/Contrato/ContratosController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/templates/menu.blade.php" afterPath="$PROJECT_DIR$/app/views/templates/menu.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Alta/moral.blade.php" afterPath="$PROJECT_DIR$/app/views/Alta/moral.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Recuperar/recuperarfisica.blade.php" afterPath="$PROJECT_DIR$/app/views/Recuperar/recuperarfisica.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Contratos/ver.blade.php" afterPath="$PROJECT_DIR$/app/views/Contratos/ver.blade.php" />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> 6390562ad1ce8db33c94d95e97ca6ce7cd2dae2a
     </list>
     <ignored path="sistema_proveedores.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,6 +39,9 @@
     <favorites_list name="sistema_proveedores" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf />
+=======
     <leaf>
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
@@ -98,6 +114,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,7 +145,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+    <option name="x" value="-1" />
+    <option name="width" value="1368" />
+=======
     <option name="width" value="1366" />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
     <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -513,6 +535,22 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="117" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="119" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="122" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="917" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="117" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="119" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="122" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="917" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -577,8 +615,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="0" width="1366" height="743" extended-state="1" />
+=======
+<<<<<<< HEAD
+    <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
+=======
+    <frame x="0" y="0" width="1366" height="743" extended-state="0" />
+<<<<<<< HEAD
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
+    <editor active="false" />
+=======
+>>>>>>> 6390562ad1ce8db33c94d95e97ca6ce7cd2dae2a
     <editor active="true" />
+>>>>>>> f5f7ebf48666b8032904a4e8361b135839677ff2
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -586,10 +636,21 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26100153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26555386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> f5f7ebf48666b8032904a4e8361b135839677ff2
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -643,6 +704,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/views/Contratos/ver.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="846">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="990">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="28" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1080">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="28" />
+          <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Recupera/ProveedoresController.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="360">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="540">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 6390562ad1ce8db33c94d95e97ca6ce7cd2dae2a
     <entry file="file://$PROJECT_DIR$/app/views/hello.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="864">
@@ -662,45 +765,75 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="810">
           <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
           <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Recuperar/recuperarfisica.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="846">
+          <caret line="32" column="69" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="69" />
+=======
         <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="846">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="990">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="28" />
+=======
         <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1020">
           <caret line="32" column="28" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="28" />
           <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Recupera/ProveedoresController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="360">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+=======
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="510">
           <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+<<<<<<< HEAD
+          <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
+=======
+>>>>>>> f5f7ebf48666b8032904a4e8361b135839677ff2
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/templates/menu.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Recuperar/recuperarfisica.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="846">
+          <caret line="32" column="69" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="69" />
+=======
         <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="799">
           <caret line="32" column="69" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="69" />
           <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
         </state>
       </provider>
     </entry>
@@ -708,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="972">
           <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,7 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1242">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,6 +986,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Fisicas.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+=======
         <state vertical-scroll-proportion="0.12164579" vertical-offset="0" max-vertical-offset="559">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
@@ -871,6 +1006,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31746033" vertical-offset="0" max-vertical-offset="567">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+<<<<<<< HEAD
+          <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
+=======
+>>>>>>> f5f7ebf48666b8032904a4e8361b135839677ff2
         </state>
       </provider>
     </entry>
@@ -883,13 +1023,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Recupera/ProveedoresController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.24324325" vertical-offset="0" max-vertical-offset="592">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+=======
         <state vertical-scroll-proportion="0.22222222" vertical-offset="0" max-vertical-offset="567">
           <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+<<<<<<< HEAD
+          <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
+=======
+>>>>>>> f5f7ebf48666b8032904a4e8361b135839677ff2
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Contratos/PdffisicacompraController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.44041452" vertical-offset="195" max-vertical-offset="774">
+          <caret line="25" column="67" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="67" />
+=======
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
@@ -914,21 +1067,41 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/templates/plantilla.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.27364865" vertical-offset="0" max-vertical-offset="592">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.15873016" vertical-offset="0" max-vertical-offset="1206">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+=======
         <state vertical-scroll-proportion="0.34920636" vertical-offset="0" max-vertical-offset="567">
           <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+>>>>>>> f5f7ebf48666b8032904a4e8361b135839677ff2
           <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Bajaproveedores/baja.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.5168919" vertical-offset="0" max-vertical-offset="828">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+=======
+        <state vertical-scroll-proportion="0.031746034" vertical-offset="0" max-vertical-offset="567">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
+=======
         <state vertical-scroll-proportion="0.93501806" vertical-offset="166" max-vertical-offset="792">
           <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+>>>>>>> f5f7ebf48666b8032904a4e8361b135839677ff2
           <folding />
         </state>
       </provider>
@@ -978,14 +1151,30 @@
         <state vertical-scroll-proportion="-16.666666" vertical-offset="234" max-vertical-offset="828">
           <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
           <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Recuperar/recuperarmoral.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-15.222222" vertical-offset="201" max-vertical-offset="828">
           <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.33653846" vertical-offset="366" max-vertical-offset="990">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="28" />
+=======
+        <state vertical-scroll-proportion="-11.259259" vertical-offset="20" max-vertical-offset="846">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+=======
+        <state vertical-scroll-proportion="0.20397112" vertical-offset="229" max-vertical-offset="810">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+>>>>>>> f5f7ebf48666b8032904a4e8361b135839677ff2
+>>>>>>> 6390562ad1ce8db33c94d95e97ca6ce7cd2dae2a
           <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
         </state>
       </provider>
     </entry>
@@ -999,16 +1188,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Contratos/pdfmoralcompra.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.2543171" vertical-offset="0" max-vertical-offset="637">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+=======
+        <state vertical-scroll-proportion="-12.518518" vertical-offset="526" max-vertical-offset="1098">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.4801444" vertical-offset="274" max-vertical-offset="846">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+>>>>>>> f5f7ebf48666b8032904a4e8361b135839677ff2
+>>>>>>> 6390562ad1ce8db33c94d95e97ca6ce7cd2dae2a
           <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Contratos/pdffisicacompra.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.20192307" vertical-offset="0" max-vertical-offset="738">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Recuperar/recuperarfisica.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6105769" vertical-offset="195" max-vertical-offset="846">
+          <caret line="32" column="69" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="69" />
+=======
+        <state vertical-scroll-proportion="0.25396827" vertical-offset="0" max-vertical-offset="567">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+>>>>>>> 6390562ad1ce8db33c94d95e97ca6ce7cd2dae2a
           <folding />
         </state>
       </provider>
@@ -1018,6 +1238,7 @@
         <state vertical-scroll-proportion="0.68606704" vertical-offset="169" max-vertical-offset="1188">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
+>>>>>>> 4d982c6fa78051b9cbdbd4f29533c9a875bd4044
         </state>
       </provider>
     </entry>
