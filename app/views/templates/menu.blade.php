@@ -6,7 +6,12 @@
           <li><a href="{{url('/fisica')}}">Persona fisica</a></li>
           <li><a href="{{url('/moral')}}">Persona moral</a></li>
         </ul>
-        <li><a href="{{url('/contrato')}}">Generar contratos</a></li>
+
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Generar Contratos <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="{{url('/contrato')}}">Persona fisica</a></li>
+                <li><a href="{{url('/contratomoral')}}">Persona moral</a></li>
+            </ul>
 
       <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Catalogo <b class="caret"></b></a>
         <ul class="dropdown-menu">
@@ -25,8 +30,14 @@
           <li><a href="{{url('/bajafisica')}}">Persona fisica</a></li>
           <li><a href="{{url('/baja')}}">Persona moral</a></li>
         </ul>--}}
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Ver contratos <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="{{url('/ver')}}">Persona fisica</a></li>
+                <li><a href="{{url('/fcompra')}}">Persona fisica compra</a></li>
+                <li><a href="{{url('/fisicacompra')}}">Persona moral compra</a></li>
+                <li><a href="{{url('/moralservicio')}}">Persona moral servicio</a></li>
 
-        <li><a href="{{url('/ver')}}">Ver contratos</a></li>
+            </ul>
 
         <!-- <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Contratos <b class="caret"></b></a>
         <ul class="dropdown-menu">

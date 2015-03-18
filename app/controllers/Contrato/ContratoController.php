@@ -3,7 +3,8 @@
 class Contrato_ContratoController extends BaseController{
 
  	public function contratoInicio(){
-		return View::make('Contrato/contrato');	
+        $datos['registros'] = Fisicas::all();
+		return View::make('Contrato/contrato',$datos);
 	}
 
 	public function guardarContrato()
@@ -12,13 +13,14 @@ class Contrato_ContratoController extends BaseController{
 		$data = Input::all();
 
 		$reglas =  [
-			'no_contrato'		=> 'required|alpha_num',
+			'no_contrato'		=> 'required',
 			'fecha_contrato'	=> 'required',
 			'vigencia_contrato'	=> 'required',
 			'tipo_contrato'		=> 'required',
 			'producto_servicio'	=> 'required',
-			'cantidad'			=> 'required|numeric',
-			'monto_total'		=>'required'
+			'cantidad'			=> 'required',
+			'monto_total'		=> 'required',
+            'proveedor'         => 'required'
 		];
 
 		$messages = [
@@ -30,13 +32,15 @@ class Contrato_ContratoController extends BaseController{
 			'tipo_contrato.required'	  => 'El tipo de contrato  es un campo requerido',
 			'producto_servicio.required'  => 'El producto o servicio es un campo obligatorio',
 			'cantidad.required'			  => 'La cantidad es un campo requerido',
-			'cantidad.numeric'			  => 'La cantidad es un campo numerico',
-			'monto_total'				  => 'El monto total es requerido'
+			'monto_total.required'		  => 'El monto total es requerido',
+            'proveedor.required'          => 'El proveedor es un campo requerido'
 		];
 		
 		$validator = Validator::make($data, $reglas, $messages);
 
 		if ($validator ->passes()){
+
+            $datos = Fisicas::whereId(Input::get('proveedor'))->first();
 
 			$contratos = new Contratos;
 			$contratos->no_contrato = Input::get('no_contrato'); 
@@ -46,6 +50,11 @@ class Contrato_ContratoController extends BaseController{
 			$contratos->producto_servicio = Input::get('producto_servicio');
 			$contratos->cantidad= Input::get('cantidad');
 			$contratos->monto_total = Input::get('monto_total');
+            $contratos->proveedor = $datos->nombre.' '.$datos->a_paterno.' '.$datos->a_materno;
+            $contratos->clave_ife = $datos->clave_ife;
+            $contratos->rfc = $datos->rfc;
+            $contratos->no_folio_ife = $datos->no_folio_ife;
+            $contratos->domicilio_ife = $datos->domicilio_ife;
 			$contratos -> save();
 		
 			return Redirect::to('contrato')->with('correcto', 'Datos Guardados Correctamente');	

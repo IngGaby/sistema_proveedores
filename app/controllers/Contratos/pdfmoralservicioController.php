@@ -1,9 +1,12 @@
 <?php
 
 class Contratos_PdfmoralservicioController extends BaseController{
-	public function pdfmorals(){
 
-	return PDF::load(View::make('Contratos/pdfmoralservicio'),'A4', 'portrait')->show();
-	}
-	
+	public function pdfMorals(){
+
+        $datos['registro'] = Contratos::whereNoContrato(no_contrato)->first();
+
+        return PDF::load(View::make('Contratos/pdffisicacompra'),'A4', 'portrait')->show();
+    }
+
 }

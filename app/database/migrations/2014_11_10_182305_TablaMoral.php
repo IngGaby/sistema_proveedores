@@ -27,6 +27,10 @@ class TablaMoral extends Migration {
 			$table->string('a_paterno_representante',20);
 			$table->string('a_materno_representante',20);
 			$table->string('estado',1);
+            $table->string('rfc',20);
+            $table->string('no_folio_ife',20);
+            $table->string('domicilio_ife',150);
+            $table->string('clave_ife',25);
 			$table->timestamps();
 		});
 	}

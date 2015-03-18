@@ -67,8 +67,25 @@
 											<label for="a_maternorepresentante">*Apellido materno del representante:</label>
 											<input type="text" class="form-control" placeholder="Ingresa el apellido materno del representante" name="a_maternorepresentante" />
 									</div>
-									<div class="col-md-4"></div>
+									<div class="col-md-4">
+                                        <label for="rfc">*RFC de la empresa:</label>
+                                        <input type="text" class="form-control" placeholder="Ingresa el RFC" name="rfc" />
+                                    </div>
 							</div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="folioife">*No. Folio de IFE del representante:</label>
+                                    <input type="text" class="form-control" placeholder="Ingresa No. de folio" name="folioife" />
+                                </div>
+                                <div class="col-md-4">
+                                   <label for="domicilioife">*Domicilio de IFE:</label>
+                                    <input type="text" class="form-control" placeholder="Ingresa domicilicio de IFE" name="domicilioife" />
+                                  </div>
+                                  <div class="col-md-4">
+                                    <label for="claveife">*Clave de elector IFE:</label>
+                                    <input type="text" class="form-control" placeholder="Ingresa clave de elector IFE" name="claveife" />
+                                </div>
+                            </div>
 							<div class="form-group"><br>
 								<input type="submit" class="btn btn-success" value="Guardar" />
 							</div>

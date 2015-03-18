@@ -54,7 +54,16 @@
 								<label for="cantidad">Monto Total:</label>
 								<input type="text" class="form-control" placeholder="Ingresa Monto Total" name="monto_total" />
 							</div>
-							<div class="col-md-4"></div>
+                            <div class="row">
+							    <div class="col-md-4"> <label for="proveedor">Proveedor</label>
+                                    <select class="form-control" name="proveedor">
+                                            <option value="">Seleccionar nombre</option>
+                                        @foreach($registros as $registro)
+                                            <option value="{{$registro->id}}" >{{$registro->nombre}} {{$registro->a_paterno}} {{$registro->a_materno}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
 							<div class="col-md-4"></div>
 						</div>
 

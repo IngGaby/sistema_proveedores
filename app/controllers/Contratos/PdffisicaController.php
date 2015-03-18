@@ -1,5 +1,6 @@
 <?php
 
+
 class Contratos_PdffisicaController extends BaseController{
 
  	public function pdfFisicas($no_contrato){

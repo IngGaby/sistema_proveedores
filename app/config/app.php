@@ -123,6 +123,8 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Thujohn\Pdf\PdfServiceProvider',
         'Way\Generators\GeneratorsServiceProvider',
+        'Way\Generators\GeneratorsServiceProvider',
+
 
 	),
 

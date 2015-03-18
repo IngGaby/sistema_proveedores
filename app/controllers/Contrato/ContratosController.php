@@ -12,7 +12,4 @@ class Contrato_ContratosController extends BaseController{
     }
 
 
-
-
-
 }

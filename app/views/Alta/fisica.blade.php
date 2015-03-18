@@ -55,6 +55,7 @@
 								</div>
 								<div class="col-md-4"></div>
 							</div>
+
 							<div class="form-group"><br>
 								<input type="submit" class="btn btn-success" value="Guardar" />
 							</div>

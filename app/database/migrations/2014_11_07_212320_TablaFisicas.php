@@ -19,9 +19,9 @@ class TablaFisicas extends Migration {
 			$table->string('a_paterno',20);
 			$table->string('a_materno',20);
 			$table->string('rfc',25);
-			$table->string('domicilio_rfc',50);
+			$table->string('domicilio_rfc',150);
 			$table->string('no_folio_ife',20);
-			$table->string('domicilio_ife',50);
+			$table->string('domicilio_ife',150);
 			$table->string('clave_ife',25);
 			$table->string('estado',1);
 			$table->timestamps();

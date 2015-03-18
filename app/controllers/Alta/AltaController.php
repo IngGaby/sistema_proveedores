@@ -5,6 +5,13 @@ class Alta_AltaController extends BaseController{
 	public function fisicaInicio(){
 		return View::make('Alta/fisica');	
 	}
+    public function contratoServicio()
+    {
+
+        $datos['registros'] = Fisicas::all();
+
+        return View::make('Contratos/ver', $datos);
+    }
 
 	public function guardarFisica()
 	{
